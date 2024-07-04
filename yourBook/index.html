@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>yourBook</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<body style="background:url(./book3.jpeg);background-repeat:no-repeat;background-attachment: fixed;background-size: 100% 100%;">
+    
+    <div class="navbar">
+        <h1>MyBookS</h1>
+
+    </div>
+    <div class="Container"></div>
+    
+        <div class="book-container">
+            <h2>MyStory</h2>
+            <h5>-Aarthi</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nulla iusto cupiditate? Dicta nesciunt fugit porro voluptate commodi, et fugiat dolorum ab ex velit. Eaque dolorem velit blanditiis asperiores illo.</p>
+          <button id="delete-button" onclick="deletebook(event)" >Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popupbox">
+    <h2>Add Story</h2>
+    <form >
+        <input type="text" placeholder="Title" id="book-title">
+        <input type="text" placeholder="Author" id="book-Author">
+        <textarea placeholder="Short description" id="story-description" ></textarea>
+        <button id="add-book">Add</button>
+        <button id="cancel-book"onclick="deletebutton(event)">Cancel</button>
+    </form>
+</div>
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js"></script>
+</body>
+</html>

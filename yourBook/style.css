@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-image: url('D:\AARTHI N\yourBook\book1.jpeg');
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+
+.wrap{
+	margin: 0 auto;
+	width: 80%;
+}
+.navbar{
+    background-color: #65fda7;
+    padding: 10PX;
+   
+}
+.navbar h1{
+    margin-left: 40%;
+}
+.container{
+    padding: 10px;
+    
+}
+.book-container{
+    text-align: left;
+    height: 30%;
+    width: 35%;
+    background-color: #ace5b7;
+    color:black;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+    
+.book-container h2{
+    color:#222824 ;
+    margin-left: 5px;
+    
+}
+.book-container button{
+    background-color:#65fda7 ;
+    color: #222824;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 85%;
+    margin-bottom: 50px;
+    
+}
+.book-container p{
+    margin-left: 10px;
+}
+.add-button{
+    border-radius: 100%;
+    background-color: #65fda7;
+    color: black;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-right:30px ;
+    padding-top:15px ;
+    padding-bottom:15 ;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.popup-overlay{
+    background-color: rgb(187, 207, 180);
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+
+}
+.popupbox{
+    background-color: #65fda7;
+    width: 40%;
+    padding: 40px;
+    z-index: 2;
+    border-radius: 10px;
+    position: absolute; 
+    top: 20%;
+    left: 25% ;
+    display: none;
+}
+.popupbox input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+
+}
+.popupbox textarea{
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+
+}
+.popupbox button{
+    background-color: #81dba8;
+    border-radius: 4px;
+    
+}
+.popupbox input::placeholder{
+    color: black;
+}
+.popupbox textarea::placeholder{
+    color: black;
+}
+.popupbox input:focus{
+    outline: none;
+}
+.popupbox textarea:focus{
+    outline: none;
+}
